@@ -8,12 +8,10 @@ function setup() {
 function makePageForEpisodes(episodeList) {
   episodeList.map(function (episode,index) {
     const main = document.getElementById("root");
-    // const episodeCard = document.querySelector(".card");
-    // const episodeTitle = document.getElementById("title");
-    // const episodeImg = document.getElementById("image");
-    // const episodeSum = document.getElementById("summary");
-    // const seasonNum = document.getElementById("seriNum");
-    // const episodeNum = document.getElementById("epNum");
+
+
+    
+   
     const episodeCard = document.createElement("div");
     episodeCard.className = "card";
 
